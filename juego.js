@@ -1,5 +1,9 @@
-const numA1 = 5;
-const numA2 = 3;
+function generador(max) {
+    return Math.floor(Math.random() * max) + 1;
+}
+let numA1 = generador(10);
+let numA2 = generador(10);
+
 let intentos1 = 2;
 let intentos2 = 4;
 let adivinado = false;
